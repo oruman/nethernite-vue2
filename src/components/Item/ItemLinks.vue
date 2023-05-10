@@ -35,6 +35,7 @@ const links = computed(() => {
       :disabled="!link.link"
       link
       plain
+      target="_blank"
     >
       <v-icon>{{ `mdi-${key}` }}</v-icon>
     </v-btn>
