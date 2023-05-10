@@ -6,6 +6,7 @@ import { useStore } from "@/stores";
 import Pagination from "@/components/PaginationBlock.vue";
 import Item from "@/components/Item/ItemBlock.vue";
 import ItemDetails from "@/components/Item/ItemDetails.vue";
+import FooterLicense from "~/components/FooterLicense.vue";
 
 const route = useRoute();
 const store = useStore();
@@ -39,6 +40,6 @@ onMounted(() => {
       </v-container>
       <item-details />
     </v-main>
-    <v-footer app> @sergey </v-footer>
+    <footer-license />
   </v-app>
 </template>
